@@ -1,0 +1,8 @@
+<header class="header">
+  <h1>Pendientes</h1>
+  <input class="new-todo"
+    placeholder="¿Qué necesitas terminar?"
+    [formControl]="txtInput"
+    (keyup.enter)="agregarTodo()"
+    autofocus>
+</header>
